@@ -11,6 +11,19 @@ body {
     background-color: #5B2AA6;
 }
 
+header {
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px;
+    height: 80px;
+    position: fixed;
+}
+
+nav.navbar-brand {
+    font-size: 20px;
+    font-weight: 500;
+}
+
 .flex-container {
     display: flex;
     flex-direction: column;
