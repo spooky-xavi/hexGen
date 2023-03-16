@@ -51,6 +51,10 @@ p {
     font-weight: 500;
 }
 
+p#hexColor {
+    border-bottom: 1px dotted #fff;
+}
+
 button {
     background-color: white;
     color: black;
