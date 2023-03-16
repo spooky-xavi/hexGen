@@ -1,3 +1,8 @@
+// Declare variables
+const background = document.body;
+const theButton = document.querySelector('button');
+const paragraph = document.getElementById('hexColor');
+
 /* Create function the creates a random hex code
 and returns the hexCode value as a string */
 const generateHex = () => {
