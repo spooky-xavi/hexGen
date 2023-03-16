@@ -52,7 +52,7 @@ p {
 }
 
 p#hexColor {
-    border-bottom: 1px dotted #fff;
+    border-bottom: 1px dashed #fff;
 }
 
 button {

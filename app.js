@@ -44,7 +44,7 @@ const getContrast = () => {
         theButton.style.backgroundColor = "white";
         theButton.style.color = "black";
         paragraph.style.color = 'white';
-        paragraph.style.borderBottom = "1px dotted #ffffff"
+        paragraph.style.borderBottom = "1px dashed #ffffff"
         navBar.style.color = "white";
         document.querySelector('h1').style.color = 'White';
         document.querySelector('p').style.color = 'White';
@@ -52,7 +52,7 @@ const getContrast = () => {
         theButton.style.backgroundColor = "black";
         theButton.style.color = "white";
         paragraph.style.color = 'black';
-        paragraph.style.borderBottom = "1px dotted #000000"
+        paragraph.style.borderBottom = "1px dashed #000000"
         navBar.style.color = "black";
         document.querySelector('h1').style.color = 'black';
         document.querySelector('p').style.color = 'black';
