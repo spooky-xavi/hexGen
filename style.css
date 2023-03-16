@@ -34,6 +34,11 @@ nav.navbar-brand {
     margin: 0 auto;
 }
 
+h1,
+p {
+    color: white;
+}
+
 h1 {
     font-size: 45px;
     margin-bottom: 20px;
@@ -46,11 +51,11 @@ p {
 }
 
 button {
-    background-color: black;
-    color: white;
-    font-family: 'Nunito', sans-serif;
+    background-color: white;
+    color: black;
     padding: 10px 30px;
     border-radius: 5px;
     font-size: 18px;
     border: none;
+    font-weight: 500;
 }
