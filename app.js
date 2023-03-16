@@ -2,7 +2,7 @@
 const background = document.body;
 const theButton = document.querySelector('button');
 const paragraph = document.getElementById('hexColor');
-const navBar = document.getElementsByClassName('.navbar-brand');
+const navBar = document.querySelector('nav');
 
 /* Create function the creates a random hex code
 and returns the hexCode value as a string */
