@@ -61,7 +61,7 @@ const getContrast = () => {
 
 const setBackground = (hexValue) => {
     background.style.backgroundColor = hexValue;
-    paragraph.innerHTML = `${hexValue};
+    paragraph.innerHTML = `${hexValue}`;
 }
 
 const changeBackground = () => {
