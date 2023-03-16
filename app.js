@@ -61,7 +61,9 @@ const getContrast = () => {
 
 const setBackground = (hexValue) => {
     background.style.backgroundColor = hexValue;
-    paragraph.innerHTML = hexValue;
+    paragraph.innerHTML = `${hexValue} <span class="material-symbols-outlined">
+    content_copy
+    </span>`;
 }
 
 const changeBackground = () => {
