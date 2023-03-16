@@ -60,3 +60,12 @@ const setBackground = (hexValue) => {
     background.style.backgroundColor = hexValue;
     paragraph.innerHTML = hexValue;
 }
+
+const changeBackground = () => {
+    const hexValue = generateHex(); //  get a new hex code
+    console.log(hexValue);
+    setBackground(hexValue); // updates the background color using the setBackground function
+    getContrast(); // set the appropriate text and button colors based on the contrast of the new background color
+};
+
+theButton.onclick = changeBackground;
