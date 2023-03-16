@@ -55,3 +55,8 @@ const getContrast = () => {
     
     return colorDifference;
 };
+
+const setBackground = (hexValue) => {
+    background.style.backgroundColor = hexValue;
+    paragraph.innerHTML = hexValue;
+}
