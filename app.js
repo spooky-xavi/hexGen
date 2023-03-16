@@ -10,3 +10,12 @@ const generateHex = () => {
     }
     return hexCode;
 };
+
+const getRgbFromHex = () => {
+    const hexValue = generateHex();
+    // Converts hex value to rgb value
+    const red = parseInt(hexValue.substring(1,3), 16);
+    const green = parseInt(hexValue.substring(3,5), 16);
+    const blue = parseInt(hexValue.substring(5,7), 16);
+    return { red, green, blue } // Store Variables as an Object
+};
