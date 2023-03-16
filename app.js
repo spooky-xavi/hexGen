@@ -2,7 +2,7 @@
 const background = document.body;
 const theButton = document.querySelector('button');
 const paragraph = document.getElementById('hexColor');
-const nav = document.getElementsByClassName('navbar-brand');
+const navBar = document.getElementsByClassName('.navbar-brand');
 
 /* Create function the creates a random hex code
 and returns the hexCode value as a string */
@@ -44,14 +44,14 @@ const getContrast = () => {
         theButton.style.backgroundColor = "white";
         theButton.style.color = "black";
         paragraph.style.color = 'white';
-        nav.style.color = "white";
+        navBar.style.color = "white";
         document.querySelector('h1').style.color = 'White';
         document.querySelector('p').style.color = 'White';
     } else {
         theButton.style.backgroundColor = "black";
         theButton.style.color = "white";
         paragraph.style.color = 'black';
-        nav.style.color = "black";
+        navBar.style.color = "black";
         document.querySelector('h1').style.color = 'black';
         document.querySelector('p').style.color = 'black';
     }
